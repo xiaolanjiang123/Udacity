@@ -109,7 +109,7 @@ def train(model, train_loader, validation_loader, criterion, optimizer, device, 
                                                                                 least_loss))
         if loss_count == 1:
             break
-        if epoch == 0:
+        if e == 0:
             break
 
 
